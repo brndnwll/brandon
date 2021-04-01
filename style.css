@@ -29,12 +29,8 @@ html {
 
 body {
   /* font-family: reason-new, sans-serif !important; */
-
-  /* Make the text nice and crisp */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* Improve kerning for good measure */
   text-rendering: optimizeLegibility;
 }
 
@@ -131,7 +127,7 @@ h3.notion-heading {
 /* Custom nav styling (see HTML at bottom of code) */
 .nav {
   align-items: flex-start;
-  padding: 25px;
+  padding: 40px;
   display: flex;
   position: static;
   z-index: 9999;
@@ -140,6 +136,7 @@ h3.notion-heading {
   flex-direction: column;
   justify-content: space-between;
 }
+
 @media screen and (min-width: 30em) {
   .nav {
     align-items: center;
@@ -153,7 +150,7 @@ h3.notion-heading {
   margin-bottom: 0.25em;
 }
 .nav .right {
-  margin-right: -20px;
+  margin-right: -40px;
 }
 .nav-link {
   transition: all .3s ease-in-out;
@@ -687,7 +684,8 @@ figcaption a {
   display: none !important;
 }
 
-/* --- PAGE LOAD ANIMATION --- */
+
+/* --- PAGE LOAD ANIMATION ---
 body {
   -webkit-animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
 animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
@@ -715,6 +713,9 @@ animation: fadeIn 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
   0% {opacity:0;}
   100% {opacity:1;}
 }
+
+*/ 
+
 
 /* --- FOOTER --- */
 /* The footer makes use of the standard table view consider whether you’ll need this feature for other aspects of your site before implementing the footer in this way */
