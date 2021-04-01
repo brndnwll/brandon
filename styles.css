@@ -1,0 +1,76 @@
+<style>
+
+:root {
+    --color-text-default: #333333 !important;
+    --color-text-default-dark: #fbfbfb !important;
+    --color-text-alt: #808c99 !important;
+    --color-bg-default: #fffffb !important;
+    --color-bg-default-dark: #151515 !important;
+}
+
+body {
+    -webkit-animation: fadeIn 2s !important;
+    -moz-animation: fadeIn 2s !important;
+    animation: fadeIn 2s !important;
+}
+
+body.light-theme {
+    --color-text-default-dark: #fbfbfb !important;
+    --color-bg-default-dark: #151515 !important;
+    --color-bg-default: #fffffb !important;
+    --color-text-default: #333333 !important;
+}
+
+@keyframes fadeIn { 0% { opacity: 0;} 100% { opacity: 1;} }
+@-moz-keyframes fadeIn { 0% { opacity: 0;} 100% { opacity: 1;} }
+@-webkit-keyframes fadeIn { 0% { opacity: 0;} 100% { opacity: 1;} }
+
+.notion-navbar,
+.notion-header,
+.notion-toggle {
+    display: none !important;
+}
+
+.super-content {
+    padding: 46px 0 0 40px !important;
+    margin: 0 auto !important;
+    max-width: 82% !important;
+    width: 1180px !important;
+}
+
+h1 {
+    letter-spacing: -1px !important;
+    font-weight: normal !important;
+    max-width: 100% !important;
+    font-size: 48px !important;
+    width: 600px !important;
+}
+
+h3 {
+    text-transform: uppercase !important;
+    margin-bottom: 24px !important;
+    letter-spacing: 2px !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+}
+
+/* Dark mode toggle */
+
+u {
+    font-weight: normal !important;
+    margin-top: -16px !important;
+    font-size: 34px !important;
+    cursor: pointer !important;
+    display: block !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-text-default-dark: #fbfbfb !important;
+        --color-bg-default-dark: #151515 !important;
+        --color-bg-default: #fffffb !important;
+        --color-text-default: #333333 !important;
+    }
+}
+
+</style>
