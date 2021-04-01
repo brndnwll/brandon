@@ -1,11 +1,11 @@
 <style>
 
 :root {
-    --color-text-default-dark: #fbfbfb !important;
-    --color-bg-default-dark: #151515 !important;
-    --color-text-default: #333333 !important;
+    --color-text-default-light: #333 !important;
+    --color-bg-default-light: #fffffb !important;
+    --color-text-default: #fbfbfb !important;
     --color-text-alt: #808c99 !important;
-    --color-bg-default: #fffffb !important;
+    --color-bg-default: #151515 !important;
 }
 
 body {
@@ -14,11 +14,11 @@ body {
     animation: fadeIn 2s !important;
 }
 
-body.dark-theme {
-    --color-text-default-dark: #fbfbfb !important;
+body.light-theme {
+    --color-text-default-light: #fbfbfb !important;
     --color-bg-default-dark: #151515 !important;
-    --color-bg-default: #fffffb !important;
     --color-text-default: #333333 !important;
+    --color-bg-default: #fffffb !important;
 }
 
 @keyframes fadeIn { 0% { opacity: 0;} 100% { opacity: 1;} }
@@ -64,12 +64,12 @@ u {
     display: block !important;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
     :root {
-        --color-text-default-dark: #333 !important;
-        --color-bg-default-dark: #fffffb !important;
-        --color-bg-default: #151515 !important;
-        --color-text-default: #fbfbfb !important;
+        --color-text-default-light: #fbfbfb !important;
+        --color-bg-default-dark: #151515 !important;
+        --color-text-default: #333333 !important;
+        --color-bg-default: #fffffb !important;
     }
 }
 
