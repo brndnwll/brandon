@@ -66,10 +66,10 @@ u {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-text-default-dark: #fbfbfb !important;
-        --color-bg-default-dark: #151515 !important;
-        --color-bg-default: #fffffb !important;
-        --color-text-default: #333333 !important;
+        --color-text-default-dark: #333 !important;
+        --color-bg-default-dark: #fffffb !important;
+        --color-bg-default: #151515 !important;
+        --color-text-default: #fbfbfb !important;
     }
 }
 
