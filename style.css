@@ -1,20 +1,20 @@
 <style>
 
 html {
-  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+    /* Prevent font scaling in landscape while allowing user zoom */
+  -webkit-text-size-adjust: 100%;
 }
 
-/* --- Change default colors --- */
+/* --- COLORS --- */
 :root {
-  --color-bg-default: #F9F6F0 !important;
-  --color-text-default: #4B5673 !important;
-  --color-text-default-light: #4B5673 !important;
-  --color-text-gray: #959BA9 !important;
-  --collection-card-cover-size-large: 210px !important;
+  --color-bg-default: #FFFFFB !important;
+  --color-text-default: #333333 !important;
+  --color-text-alt: #313386 !important;
+  --collection-card-cover-size-large: 200px !important;
 }
 @media screen and (min-width: 50em) {
   :root {
-    --collection-card-cover-size-large: 270px !important;
+    --collection-card-cover-size-large: 260px !important;
   }
 }
 
