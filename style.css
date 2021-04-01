@@ -18,7 +18,6 @@ html {
   }
 }
 
-
 /* --- TYPOGRAPHY --- */
 
 /* Increase base font size for large screens */
@@ -29,7 +28,7 @@ html {
 }
 
 body {
-  font-family: reason-new, sans-serif !important;
+  /* font-family: reason-new, sans-serif !important; */
 
   /* Make the text nice and crisp */
   -webkit-font-smoothing: antialiased;
