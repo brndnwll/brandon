@@ -1,24 +1,18 @@
 <style>
 
+html {
+    /* Prevent font scaling in landscape while allowing user zoom */
+  -webkit-text-size-adjust: 100%;
+}
+
 :root {
-    --color-text-default-light: #333 !important;
-    --color-bg-default-light: #fffffb !important;
-    --color-text-default: #fbfbfb !important;
-    --color-text-alt: #808c99 !important;
-    --color-bg-default: #151515 !important;
+    --color-bg-default: #fffffb !important;
 }
 
 body {
     -webkit-animation: fadeIn 2s !important;
     -moz-animation: fadeIn 2s !important;
     animation: fadeIn 2s !important;
-}
-
-body.light-theme {
-    --color-text-default-light: #fbfbfb !important;
-    --color-bg-default-dark: #151515 !important;
-    --color-text-default: #333333 !important;
-    --color-bg-default: #fffffb !important;
 }
 
 @keyframes fadeIn { 0% { opacity: 0;} 100% { opacity: 1;} }
@@ -43,7 +37,7 @@ h1 {
     font-weight: normal !important;
     max-width: 100% !important;
     font-size: 48px !important;
-    width: 800px !important;
+    /* width: 800px !important; */
 }
 
 h3 {
@@ -52,25 +46,6 @@ h3 {
     letter-spacing: 2px !important;
     font-weight: normal !important;
     font-size: 12px !important;
-}
-
-/* Dark mode toggle */
-
-u {
-    font-weight: normal !important;
-    margin-top: -16px !important;
-    font-size: 12px !important;
-    cursor: pointer !important;
-    display: block !important;
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --color-text-default-light: #fbfbfb !important;
-        --color-bg-default-dark: #151515 !important;
-        --color-text-default: #333333 !important;
-        --color-bg-default: #fffffb !important;
-    }
 }
 
 </style>
