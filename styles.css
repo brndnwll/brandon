@@ -23,9 +23,7 @@ body {
 .notion-header,
 .notion-toggle
 .notion-collection__header
-.notion-collection-list__item 
-.notion-property__title 
-.notion-semantic-string {
+.notion-collection_view-block {
     display: none !important;
 }
 
