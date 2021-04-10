@@ -22,8 +22,8 @@ body {
 
 .notion-navbar,
 .notion-header,
-.notion-toggle
-.notion-collection__header
+.notion-toggle,
+.notion-collection__header,
 .notion-collection_view-block {
     display: none !important;
 }
