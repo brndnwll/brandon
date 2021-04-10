@@ -30,6 +30,7 @@ body {
 
 /* Navbar */
 .notion-navbar {
+    background: var(--color-bg-default) !important;
     height: 100px !important;
     box-shadow: none !important;
     position: fixed !important;
