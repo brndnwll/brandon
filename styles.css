@@ -8,6 +8,7 @@ html {
     --color-bg-default: #fffffb !important;
     --color-text-default: #151515 !important;
     --padding-right: calc(env(safe-area-inset-right) + 80px) !important;
+    --padding-left: calc(env(safe-area-inset-right) + 80px) !important;
 }
 
 body {
@@ -54,13 +55,19 @@ body {
     top: 0 !important;
 }
 
-
-.super-content {
-    padding: 46px 0 0 40px !important;
-    margin: 0 auto !important;
-    max-width: 82% !important;
-    width: 1180px !important;
+/* Sizing & spacing */
+.max-width,
+.super-content,
+.notion-navbar {
+    padding-right: var(--padding-right) !important;
+    padding-left: var(--padding-left) !important;
 }
+.super-content {
+    padding-bottom: 50px !important;
+    padding-top: 80px !important;
+}
+.notion-header__title { padding: 0 !important; }
+.max-width { max-width: 100% !important; }
 
 h1 {
     font-weight: normal !important;
