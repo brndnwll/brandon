@@ -27,6 +27,33 @@ body {
     display: none !important;
 }
 
+/* Navbar */
+.notion-navbar {
+    background: rgba(155,160,176,0.94) !important;
+    height: var(--navbar-height) !important;
+    box-shadow: none !important;
+    position: fixed !important;
+}
+.notion-navbar>a { padding: 0 !important; }
+.notion-navbar>a:hover { background: none !important; }
+.notion-breadcrumb__divider { margin: -4px 4px 0 !important; }
+.notion-navbar__title { overflow: visible !important; }
+.notion-quote {
+    padding: 0 var(--padding-right) 0 0 !important;
+    height: var(--navbar-height) !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    position: fixed !important;
+    font-size: 22px !important;
+    z-index: 9999 !important;
+    display: flex !important;
+    border: none !important;
+    margin: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+}
+
+
 .super-content {
     padding: 46px 0 0 40px !important;
     margin: 0 auto !important;
